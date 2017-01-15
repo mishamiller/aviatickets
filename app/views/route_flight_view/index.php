@@ -6,7 +6,7 @@
   </head>
   <body>
     <h1>Подбор авиарейсов</h1>
-    <form class="search_form" method="post" action="../app/views/main_view/index.php">
+    <form class="search_form" method="post" action="../app/controllers/result.php">
       <div class="search_line clearfix">
         <label for="airport_dep">Аэропорт отправления: </label>
         <input type="text" id="airport_dep" name="airport_dep"/>

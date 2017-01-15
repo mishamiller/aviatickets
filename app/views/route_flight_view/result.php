@@ -16,13 +16,10 @@
             </h4>
           </div>
           <div class="flight_option airport_dep">
-            <?php
-              $AD = $_POST['airport_dep'];
-            echo '<h4>Аэропорт отправления: <span>' . $_POST['airport_dep'] . '</span>' ?>
-            </h4>
+            <h4>Аэропорт отправления: <span><?php echo $dep; ?></span></h4>
           </div>
           <div class="flight_option airport_arr">
-            <h4>Аэропорт прибытия: <span>IKT</span>
+            <h4>Аэропорт прибытия: <span><?php echo $arr; ?></span>
             </h4>
           </div>
           <div class="flight_option time_dep">

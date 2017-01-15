@@ -19,7 +19,6 @@ $('form.search_form').on('submit', function() {
     data: data,
     success: function(response) {
       $('#a').html(response);
-      $('#result').load('../app/views/route_flight_view/result.php');
     }
   });
 });
