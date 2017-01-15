@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<svg width="140" height="10" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <circle id="svg_1" r="2" cy="5" cx="25" stroke-width="0" stroke="#000000" fill="#aaa"/>
+  <circle id="svg_6" r="1.5" cy="5" cx="35" stroke-width="0" stroke="#000000" fill="#aaa"/>
+  <circle id="svg_2" r="1" cy="5" cx="45" stroke-width="0" stroke="#000000" fill="#aaa"/>
+  <circle id="svg_4" r="1" cy="5" cx="95" stroke-width="0" stroke="#000000" fill="#aaa"/>
+  <circle id="svg_9" r="1.5" cy="5" cx="105" stroke-width="0" stroke="#000000" fill="#aaa"/>
+  <circle id="svg_5" r="2" cy="5" cx="115" stroke-width="0" stroke="#000000" fill="#aaa"/>
+ </g>
+</svg>

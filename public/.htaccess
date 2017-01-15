@@ -1,0 +1,9 @@
+Options -MultiViews
+RewriteEngine On
+
+RewriteBase /aviatickets/public
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-а
+
+# RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
