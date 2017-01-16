@@ -9,9 +9,9 @@
     <form class="search_form" method="post" action="../app/controllers/result.php">
       <div class="search_line clearfix">
         <label for="airport_dep">Аэропорт отправления: </label>
-        <input type="text" id="airport_dep" name="airport_dep"/>
+        <input type="text" id="airport_dep" name="airport_dep" required pattern="[A-Za-z]{3}"/>
         <label for="airport_arr">Аэропорт прибытия: </label>
-        <input type="text" id="airport_arr" name="airport_arr"/>
+        <input type="text" id="airport_arr" name="airport_arr"required pattern="[A-Za-z]{3}"/>
         <input class="search_field search_button" type="submit" value="Найти">
       </div>
     </form>

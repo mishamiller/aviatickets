@@ -36,11 +36,11 @@ foreach ($result_routes as $key) {
     $df_arr = strtotime($key2['time_arr']);
 
     echo '<div class="flight_option time_dep">
-      <h4>Время отправления: <span>'. date("G:i", $df_dep) .'</span>
+      <h4>Время отправления: <span>'. date("G:i", $df_dep) . ' (' . date("d", $df_dep) . ' ' . date("M", $df_dep) . ') </span>
       </h4>
     </div>';
     echo '<div class="flight_option time_arr">
-      <h4>Время прибытия: <span>'. date("G:i", $df_arr) .'</span>
+      <h4>Время прибытия: <span>'. date("G:i", $df_arr) . ' (' . date("d", $df_arr) . ' ' . date("M", $df_arr) . ') </span>
       </h4>
     </div></div>';
   }
