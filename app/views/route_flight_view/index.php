@@ -16,8 +16,9 @@
       </div>
     </form>
 
-    <div id="a" style="text-align: center"></div><br><br>
-    <div id="result" style="text-align: center"></div><br><br>
+    <div class="container clearfix">
+      <div id="result"></div>
+    </div>
 
     <div class="copyright">
       <p>Михаил Шаймарданов, МГТУ им. Н.Э. Баумана, 2016 г.</p>

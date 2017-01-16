@@ -18,7 +18,7 @@ $('form.search_form').on('submit', function() {
     type: type,
     data: data,
     success: function(response) {
-      $('#a').html(response);
+      $('#result').html(response);
     }
   });
 });
