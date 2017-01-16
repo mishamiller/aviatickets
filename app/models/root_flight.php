@@ -25,6 +25,7 @@ $prev_key = "-";
 $result_routes = array();
 
 foreach ($select_flights as $key) {
+
   if ($key['route_id'] != $prev_key) {
     $prev_key = $key['route_id'];
     $result_route = array();
@@ -38,7 +39,15 @@ foreach ($select_flights as $key) {
   }
 }
 
-// var_dump($result_routes);
+$count = 0;
+foreach ($result_routes as $key) {
+  $end_array = end($key);
+  $key_array = key($key);
+  if ($key[0]['airport_dep'] != $dep or $key[$key_array]['airport_arr'] != $arr) {
+    unset($result_routes[$count]);
+  }
+  $count++;
+}
 
 $conn = null;
 
